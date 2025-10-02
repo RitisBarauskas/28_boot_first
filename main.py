@@ -9,6 +9,5 @@ def main():
     greet(int(count))
 
 
-
 if __name__ == '__main__':
     main()
