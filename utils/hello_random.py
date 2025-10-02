@@ -1,6 +1,5 @@
 import random
 
-
 NAMES = [
     "Alice",
     "Bob",
