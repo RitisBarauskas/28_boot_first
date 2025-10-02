@@ -14,6 +14,7 @@ def get_random_name():
     return random.choice(NAMES)
 
 
-def greet():
-    name = get_random_name()
-    print(f"Hello, {name}!")
+def greet(count=1):
+    for _ in range(count):
+        name = get_random_name()
+        print(f"Hello, {name}!")
